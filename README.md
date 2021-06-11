@@ -1,10 +1,19 @@
-# sahayata-Analysis
+# Sahayata Analysis-
+Data Analysis project to gain insights of future prices of rice crop in North Indian wholesale markets.
+Gathered data by scrapping open-source government website using Selenium scripts.
+Government website from which the data for wholesale market prices is scrapped: https://fcainfoweb.nic.in/Reports/Report_Menu_Web.aspx.
 
-#### Created Deep Neural Network model to predict whole sale prices of Rice in North India. File named nn.ipynb contains this model.
-#### It is currently under development for the scope of improvement in its accuracy score.
+### Data
+>> Market rates data is gathered by scrapping the above mentioned website's resources. Other features of the data are: Rainfall, Inflation, Production, Export rate, MSP.
 
-#### Also created Time Series Forecast model for the same purpose. It takes data of crop prices from year 2010 to 2018 as input.
+### nn.ipynb:
+>>In this file, the prepared data is transformed and scaled to be used for model input
+>>I have created a ANN model for the priction of the crop price.
 
-#### Persistence model is for benchmarking the lstm model performance.
+### lstmWeeklyData.ipynb:
+>>In this file, I have transformed the data and made it suitable for a time series model.
+>>Created the time series model using LSTM. Plotted its performance using Matplotlib in the same code.
+>>persistence_model file is the maximum extent of accuracy the model can touch.
 
-#### Tablue folder consists of visualizations on the data set.
+### Tablue
+>>This folder contains the tablue charts created for analyzing relationships between different features of the data.
