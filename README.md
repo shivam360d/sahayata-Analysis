@@ -7,14 +7,19 @@ Data preapred by scrapping open-source government [website](https://fcainfoweb.n
 ### Data Visualizations
 Below are the major data visualizations done for different features of the dataset.
 
-### 1. Average Rain per year per month
+### 1. Average rain per year per month
 
-![1](visualizations/1.png) ![2](visualizations/2.png)
+![1](visualizations/1.png)
 
-### lstmWeeklyData.ipynb:
->>In this file, I have transformed the data and made it suitable for a time series model.
->>Created the time series model using LSTM. Plotted its performance using Matplotlib in the same code.
->>persistence_model file is the maximum extent of accuracy the model can touch.
+### 2. Rice rate per week for each year
 
-### Tablue
->>This folder contains the tablue charts created for analyzing relationships between different features of the data.
+![2](visualizations/5.png)
+
+### Data Predictions
+
+##### lstmWeeklyData.ipynb:
+For predciting future price of rice, built a time series model using LSTM.
+
+##### nn.ipynb:
+For predicting correct market rate of rice given some input data such as rainfall, inflation, MSP etc. using an ANN model. 
+
