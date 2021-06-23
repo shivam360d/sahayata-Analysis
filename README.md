@@ -9,7 +9,7 @@ Below are the major data visualizations done for different features of the datas
 
 ### 1. Average Rain per year per month
 
-![1](images/1.png) ![2](images/2.png)
+![1](visualizations/1.png) ![2](visualizations/2.png)
 
 ### lstmWeeklyData.ipynb:
 >>In this file, I have transformed the data and made it suitable for a time series model.
