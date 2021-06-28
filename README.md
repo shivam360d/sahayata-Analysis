@@ -1,5 +1,5 @@
 # Sahayata Analysis
-Gain insights of crops prices in North Indian wholesale markets using data science.
+Gain insights of crops prices in North Indian wholesale markets using data science. View rest of my projects [here](https://shivam360d.github.io/ShivamVats/).
 
 ### Data Scrapping
 Data preapred by scrapping open-source government [website](https://fcainfoweb.nic.in/Reports/Report_Menu_Web.aspx) using custom Selenium scripts.
